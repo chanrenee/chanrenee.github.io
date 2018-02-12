@@ -1,0 +1,173 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	padding:0;
+	margin:0;
+	display: inherit;
+}
+
+h2{
+	font-weight:400;
+	font-size:44px;
+}
+.nav img{
+	padding: 3px;
+	float:left;
+}
+
+.nav{
+	margin:0;
+	padding:0;
+	background:#fbd53e;
+	position:fixed;
+	text-decoration:none;
+	text-align:right;
+	display:inline-block;
+	width:100%;
+}
+	
+ul {
+list-style-type: none;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		padding-top:10px;
+
+}
+li{
+	display:	 inline;
+}
+li a {
+		padding-right:30px;			
+		text-decoration:none;
+		color:#333333;
+}
+
+li a:hover {
+    color: #bb8bbe;
+}
+
+
+@media only screen and (max-width: 600px) {
+.nav{
+	background:#fbd53e;
+	position:fixed;
+	text-decoration:none;
+	text-align:center;
+	width:100%;
+	font-size:22px;
+}
+	
+ul {
+	text-align:center;
+list-style-type: none;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+li a {
+	text-decoration:none;
+	color:#333333;
+
+}
+li a:hover {
+    color: #bb8bbe;
+}
+
+.nav img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+	float:center;
+}
+.header{
+	padding-top:300px;
+}
+}
+header{
+	background:#bb8bbe;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding:10px;
+	padding-top:90px;
+	text-align:center;
+	margin-top:0px;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    min-width: 100%; 
+    min-height: 50%;
+	padding:0px;
+}
+.video{
+	padding:0px;
+	margin:0px;
+	
+}
+
+
+
+.about{
+	background-color:#0092c3;	
+	color:#fff;
+	text-align:center;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;	
+	padding:10px;
+	margin-top:-20px;
+}
+.about p{
+	padding-left:45px;
+	padding-right:45px;
+	padding-bottom:45px;
+
+}
+.contact{
+	padding:10px;
+	margin-top:-20px;
+	background-color:#333333;
+	color:#fff;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;	
+	text-align:center;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 60%; /* Full width */
+    padding: 10px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 16px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+	
+    background-color: #bb8bbe;
+    color: white;
+    padding: 15px 23px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	font-size:larger;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #8461a8;
+}
+
+.footer{
+	background-color:#333333;	
+}
+
+.footer img{
+	width:100%;
+}
+
+#label
+{
+	position:relative;
+	
+	}
+	
