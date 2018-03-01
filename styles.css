@@ -26,7 +26,6 @@ h2{
 	display:inline-block;
 	width:100%;
 }
-	
 ul {
 list-style-type: none;
 	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -49,38 +48,38 @@ li a:hover {
 
 @media only screen and (max-width: 600px) {
 .nav{
+	margin:0;
+	padding:0;
 	background:#fbd53e;
 	position:fixed;
 	text-decoration:none;
 	text-align:center;
+	display:block;
 	width:100%;
-	font-size:22px;
 }
-	
 ul {
-	text-align:center;
-list-style-type: none;
+	list-style-type: circle;
 	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-li a {
-	text-decoration:none;
-	color:#333333;
+		padding-top:0px;
 
 }
+li{
+	display: block;
+}
+li a {
+		padding-right:30px;			
+		text-decoration:none;
+		color:#333333;
+}
+
 li a:hover {
     color: #bb8bbe;
 }
 
-.nav img{
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-	float:center;
+header{
+	padding-top:100px;
 }
-.header{
-	padding-top:300px;
-}
+
 }
 header{
 	background:#bb8bbe;
@@ -90,6 +89,8 @@ header{
 	text-align:center;
 	margin-top:0px;
 }
+
+
 
 /* Style the video: 100% width and height to cover the entire window */
 #myVideo {
@@ -118,6 +119,28 @@ header{
 	padding-right:45px;
 	padding-bottom:45px;
 
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+.column h4{
+	font-weight:500;
+	text-align:center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
 }
 .contact{
 	padding:10px;
@@ -159,6 +182,7 @@ input[type=submit]:hover {
 
 .footer{
 	background-color:#333333;	
+	
 }
 
 .footer img{
